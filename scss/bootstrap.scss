@@ -1,0 +1,39 @@
+/******* Customized Bootstrap for Tech Store ********/
+
+$primary: #0D6EFD;         // Màu xanh đậm hiện đại (màu chủ đạo)
+$secondary: #FF5722;       // Màu cam đậm năng động (màu phụ)
+$light: #F8F9FA;           // Màu xám nhạt hiện đại (nền sáng)
+$dark: #212529;            // Màu đen xám mạnh mẽ (nền tối)
+
+$font-family-base: 'Roboto', sans-serif;          // Đổi font thành Roboto
+$headings-font-family: 'Roboto', sans-serif;      // Đổi font tiêu đề thành Roboto
+
+$body-color: #6C757D;      // Màu chữ nội dung (xám tối)
+$headings-color: $dark;    // Màu chữ tiêu đề
+$headings-font-weight: 600; // Độ đậm của tiêu đề
+$display-font-weight: 800;  // Độ đậm của tiêu đề lớn
+
+$enable-responsive-font-sizes: true; // Kích hoạt font chữ đáp ứng
+
+$border-radius: 8px;        // Giảm border-radius cho góc bớt bo tròn
+$border-radius-sm: $border-radius;
+$border-radius-lg: $border-radius;
+
+$link-decoration: none;     // Không có gạch chân cho link
+$enable-negative-margins: true; // Cho phép margin âm
+
+// Tùy chỉnh màu sắc cho các trạng thái
+$success: #28A745;          // Màu xanh lá cho thành công
+$danger: #DC3545;           // Màu đỏ cho cảnh báo lỗi
+$warning: #FFC107;          // Màu vàng cho cảnh báo
+$info: #17A2B8;             // Màu xanh dương nhạt cho thông tin
+
+// Màu nền và chữ của button
+$btn-primary-bg: $primary;
+$btn-primary-border: $primary;
+$btn-secondary-bg: $secondary;
+$btn-secondary-border: $secondary;
+$btn-primary-color: $light;
+$btn-secondary-color: $light;
+
+@import "bootstrap/scss/bootstrap"; // Import Bootstrap SCSS
